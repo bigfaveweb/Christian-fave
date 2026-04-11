@@ -619,7 +619,7 @@ section {
     width: 250px;
     height: 250px;
     border-radius: 50%;
-    background-image: url('boro.png');
+    background-image: url('ference.png');
     background-size: cover;
     background-position: center;
     box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
@@ -1300,19 +1300,19 @@ section {
 
 /* Specific portfolio images */
 .portfolio-image.ecommerce {
-    background-image: url('images/boro.png');
+    background-image: url('boro.png');
 text-decoration: none;
 }
 
 .portfolio-image.analytics {
-    background-image: url('images/build.png');
+    background-image: url('build.png');
 }
 
 
 
 
 .portfolio-image.music {
-    background-image: url('images/express.png');
+    background-image: url('express.png');
 }
 
 .portfolio-content {
