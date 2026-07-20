@@ -261,19 +261,107 @@ section{
     color:#64748b;
 }
 
-.image-box{
+/*================ PROFILE IMAGE ================*/
+
+.hero-image{
+
+    display:flex;
+
+    justify-content:center;
+
+}
+
+.profile-wrapper{
+
+    position:relative;
 
     width:430px;
 
     height:430px;
 
-    margin:auto;
+}
 
-    border-radius:35px;
+.blue-circle{
 
-    overflow:hidden;
+    position:absolute;
 
-    box-shadow:0 25px 60px rgba(0,0,0,.12);
+    width:100%;
+
+    height:100%;
+
+    border-radius:50%;
+
+    background:linear-gradient(135deg,#2563eb,#60a5fa);
+
+    animation:float 6s ease-in-out infinite;
+}
+
+.profile-wrapper img{
+
+    position:absolute;
+
+    top:20px;
+
+    left:20px;
+
+    width:390px;
+
+    height:390px;
+
+    object-fit:cover;
+
+    border-radius:50%;
+
+    border:8px solid white;
+
+    box-shadow:0 25px 60px rgba(0,0,0,.15);
+}
+
+.glass-card{
+
+    position:absolute;
+
+    padding:12px 20px;
+
+    background:rgba(255,255,255,.75);
+
+    backdrop-filter:blur(15px);
+
+    border-radius:15px;
+
+    font-weight:600;
+
+    color:#2563eb;
+
+    box-shadow:0 15px 30px rgba(0,0,0,.08);
+}
+
+.html-card{
+
+    top:15px;
+
+    left:-20px;
+}
+
+.css-card{
+
+    top:90px;
+
+    right:-30px;
+}
+
+.js-card{
+
+    bottom:70px;
+
+    left:-35px;
+}
+
+.wp-card{
+
+    bottom:10px;
+
+    right:-20px;
 }
 
 .image-box img{
