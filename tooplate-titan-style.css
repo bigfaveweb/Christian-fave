@@ -663,10 +663,10 @@ section{
     font-size:1.2rem;
 
 }
-/*==================== SKILLS ====================*/
+/*================ SKILLS ================*/
 
 .skills{
-    background:#0f0f0f;
+    background:#f8fafc;
 }
 
 .skills-container{
@@ -676,24 +676,23 @@ section{
 }
 
 .skill-card{
-    background:#181818;
+    background:#fff;
     padding:40px 30px;
     border-radius:20px;
-    border:1px solid rgba(255,255,255,.08);
-    transition:.4s;
+    box-shadow:0 15px 35px rgba(15,23,42,.08);
+    transition:.35s;
 }
 
 .skill-card:hover{
     transform:translateY(-10px);
-    border-color:#00bfff;
-    box-shadow:0 20px 40px rgba(0,191,255,.15);
+    box-shadow:0 20px 45px rgba(37,99,235,.18);
 }
 
 .skill-icon{
     width:70px;
     height:70px;
-    background:linear-gradient(135deg,#00bfff,#7b2cff);
     border-radius:18px;
+    background:#2563eb;
     display:flex;
     justify-content:center;
     align-items:center;
@@ -701,23 +700,24 @@ section{
 }
 
 .skill-icon i{
-    font-size:2rem;
     color:#fff;
+    font-size:2rem;
 }
 
 .skill-card h3{
     font-size:1.4rem;
+    color:#0f172a;
     margin-bottom:15px;
 }
 
 .skill-card p{
-    color:#bbb;
+    color:#64748b;
     line-height:1.8;
 }
-/*==================== PROJECTS ====================*/
+/*================ PROJECTS ================*/
 
 .projects{
-    background:#0f0f0f;
+    background:#fff;
 }
 
 .projects-container{
@@ -727,17 +727,16 @@ section{
 }
 
 .project-card{
-    background:#181818;
-    border:1px solid rgba(255,255,255,.08);
+    background:#fff;
     border-radius:22px;
     overflow:hidden;
-    transition:.4s;
+    box-shadow:0 15px 35px rgba(15,23,42,.08);
+    transition:.35s;
 }
 
 .project-card:hover{
-    transform:translateY(-12px);
-    border-color:#00bfff;
-    box-shadow:0 25px 50px rgba(0,191,255,.15);
+    transform:translateY(-10px);
+    box-shadow:0 25px 50px rgba(37,99,235,.18);
 }
 
 .project-image{
@@ -749,7 +748,7 @@ section{
     width:100%;
     height:100%;
     object-fit:cover;
-    transition:.5s;
+    transition:.4s;
 }
 
 .project-card:hover img{
@@ -762,21 +761,22 @@ section{
 
 .project-category{
     display:inline-block;
-    background:#00bfff;
-    color:#fff;
-    padding:6px 14px;
+    padding:6px 16px;
+    background:#dbeafe;
+    color:#2563eb;
     border-radius:50px;
-    font-size:.8rem;
+    font-size:.85rem;
+    font-weight:600;
     margin-bottom:15px;
 }
 
 .project-content h3{
+    color:#0f172a;
     margin-bottom:15px;
-    font-size:1.5rem;
 }
 
 .project-content p{
-    color:#bbb;
+    color:#64748b;
     line-height:1.8;
     margin-bottom:20px;
 }
@@ -789,18 +789,14 @@ section{
 }
 
 .project-tech span{
-    background:#222;
-    color:#ddd;
-    padding:8px 14px;
+    padding:8px 15px;
+    background:#eff6ff;
+    color:#2563eb;
     border-radius:50px;
     font-size:.85rem;
 }
 
-.project-buttons{
-    display:flex;
-}
-
-.project-buttons a{
+.project-buttons .btn-primary{
     width:100%;
     text-align:center;
 }
