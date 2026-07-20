@@ -37,3 +37,99 @@ ul{
 section{
     padding:100px 0;
 }
+/*================ HEADER ================*/
+
+.header{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    z-index:1000;
+    background:rgba(255,255,255,.75);
+    backdrop-filter:blur(18px);
+    border-bottom:1px solid rgba(0,0,0,.06);
+}
+
+.nav{
+    height:80px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    font-size:1.7rem;
+    font-weight:700;
+    color:#0f172a;
+}
+
+.logo span{
+    color:#2563eb;
+}
+
+.nav-links{
+    display:flex;
+    gap:40px;
+}
+
+.nav-links a{
+    color:#334155;
+    font-weight:500;
+    position:relative;
+    transition:.3s;
+}
+
+.nav-links a:hover,
+.nav-links a.active{
+    color:#2563eb;
+}
+
+.nav-links a::after{
+
+    content:"";
+
+    position:absolute;
+
+    left:0;
+
+    bottom:-8px;
+
+    width:0;
+
+    height:2px;
+
+    background:#2563eb;
+
+    transition:.35s;
+}
+
+.nav-links a:hover::after,
+.nav-links a.active::after{
+
+    width:100%;
+
+}
+
+.hire-btn{
+
+    padding:13px 28px;
+
+    border-radius:50px;
+
+    background:#2563eb;
+
+    color:#fff;
+
+    font-weight:600;
+
+    transition:.35s;
+
+}
+
+.hire-btn:hover{
+
+    transform:translateY(-3px);
+
+    box-shadow:0 15px 30px rgba(37,99,235,.25);
+
+}
