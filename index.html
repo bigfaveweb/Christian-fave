@@ -651,30 +651,31 @@
 
         </div>
 
-        <form class="contact-form">
+     <form action="https://api.web3forms.com/submit" method="POST" class="contact-form">
 
-            <div class="input-box">
-                <input type="text" placeholder="Your Name" required>
-            </div>
+    <input type="hidden" name="access_key" value="c033dc5c-4e0e-4b73-ad1a-649142390379">
 
-            <div class="input-box">
-                <input type="email" placeholder="Your Email" required>
-            </div>
+    <div class="input-box">
+        <input type="text" name="name" placeholder="Your Name" required>
+    </div>
 
-            <div class="input-box">
-                <input type="text" placeholder="Subject">
-            </div>
+    <div class="input-box">
+        <input type="email" name="email" placeholder="Your Email" required>
+    </div>
 
-            <div class="input-box">
-                <textarea rows="6" placeholder="Write your message..." required></textarea>
-            </div>
+    <div class="input-box">
+        <input type="text" name="subject" placeholder="Subject">
+    </div>
 
-            <button class="btn btn-primary">
-                Send Message
-            </button>
+    <div class="input-box">
+        <textarea name="message" rows="6" placeholder="Write your message..." required></textarea>
+    </div>
 
-        </form>
+    <button class="btn btn-primary" type="submit">
+        Send Message
+    </button>
 
+</form>
     </div>
 
 </section>
